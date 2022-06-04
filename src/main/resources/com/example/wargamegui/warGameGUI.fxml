@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="677.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wargamegui.controller.WarGameController">
+   <children>
+      <ImageView fx:id="computerCardDeckImageView" fitHeight="111.0" fitWidth="84.0" layoutX="23.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="computerCardCounterLabel" layoutX="23.0" layoutY="167.0" prefHeight="18.0" prefWidth="76.0" text="Cards: " />
+      <ImageView fx:id="computerCardInPlayImageView" fitHeight="111.0" fitWidth="84.0" layoutX="203.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="messageArea" layoutX="76.0" layoutY="313.0" prefHeight="36.0" prefWidth="434.0" text="Message Area">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="playerCardInPlayImageView" fitHeight="111.0" fitWidth="84.0" layoutX="302.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCardInHandImageView1" fitHeight="111.0" fitWidth="84.0" layoutX="23.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCardInHandImageView2" fitHeight="111.0" fitWidth="84.0" layoutX="110.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCardInHandImageView3" fitHeight="111.0" fitWidth="84.0" layoutX="202.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCardInHandImageView4" fitHeight="111.0" fitWidth="84.0" layoutX="301.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="playerCardInHandImageView5" fitHeight="111.0" fitWidth="84.0" layoutX="397.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="playerCardCounterLabel" layoutX="502.0" layoutY="481.0" prefHeight="18.0" prefWidth="72.0" text="Cards: " />
+      <ImageView fx:id="playerCardDeckImageView" fitHeight="111.0" fitWidth="84.0" layoutX="498.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/backOfCard.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="peakButton" layoutX="62.0" layoutY="638.0" mnemonicParsing="false" onAction="#displayCardsInHand" text="Peak at Cards" />
+      <Button fx:id="drawCardButton" layoutX="502.0" layoutY="638.0" mnemonicParsing="false" onAction="#drawCard" text="Draw Card" />
+   </children>
+</AnchorPane>
