@@ -70,13 +70,13 @@ public class WarGameController implements Initializable {
 
     @FXML
     public void displayCardsInHand() {
-        //I need to fix this method.... 
+        //I need to fix this method....
         //playerCardInHandImageView1.setImage(playerHand.getCardsInHand().get(0).getImage());
-        playerCardInHandImageView2.setImage(playerHand.getCardsInHand().get(1).getImage());
-        playerCardInHandImageView3.setImage(playerHand.getCardsInHand().get(2).getImage());
-        playerCardInHandImageView4.setImage(playerHand.getCardsInHand().get(3).getImage());
-        playerCardInHandImageView5.setImage(playerHand.getCardsInHand().get(4).getImage());
-        messageArea.setText("I see your hand!");
+//        playerCardInHandImageView2.setImage(playerHand.getCardsInHand().get(1).getImage());
+//        playerCardInHandImageView3.setImage(playerHand.getCardsInHand().get(2).getImage());
+//        playerCardInHandImageView4.setImage(playerHand.getCardsInHand().get(3).getImage());
+//        playerCardInHandImageView5.setImage(playerHand.getCardsInHand().get(4).getImage());
+        messageArea.setText("My bad; that button doesn't work yet.");
     }
 
     @FXML

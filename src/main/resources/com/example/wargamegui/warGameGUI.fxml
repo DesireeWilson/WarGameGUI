@@ -61,7 +61,7 @@
             <Image url="@images/backOfCard.png" />
          </image>
       </ImageView>
-      <Button fx:id="peakButton" layoutX="62.0" layoutY="638.0" mnemonicParsing="false" onAction="#displayCardsInHand" text="Peak at Cards" />
+      <Button fx:id="peakButton" layoutX="62.0" layoutY="638.0" mnemonicParsing="false" onAction="#displayCardsInHand" text="Peek at Cards" />
       <Button fx:id="drawCardButton" layoutX="502.0" layoutY="638.0" mnemonicParsing="false" onAction="#drawCard" text="Draw Card" />
    </children>
 </AnchorPane>
